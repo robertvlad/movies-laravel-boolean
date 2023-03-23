@@ -1,1 +1,1 @@
-Back-End di un sito web capace di gestire liste di film. E'stato aggiunto anche la lista del cast e i generi a cui può appartenere un determinato film. Il tutto è stato popolato con un Seeder utilizzando un faker.
+Back-End di un sito web capace di gestire liste di film. E' stato aggiunto anche la lista del cast e i generi a cui può appartenere un determinato film. Il tutto è stato popolato con un Seeder utilizzando un faker.
