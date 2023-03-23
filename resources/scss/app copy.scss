@@ -1,0 +1,108 @@
+@import '~bootstrap/scss/bootstrap';
+
+.blue{
+    background-color: rgba(2,130,249,255);
+    height: 70px;
+}
+
+.card-jumbo {
+    padding-top: 3em;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+
+    h4 {
+        text-transform: uppercase;
+    }
+
+    .position {
+        width: 50%;
+        margin: 0 auto;
+
+        .view {
+            border: 3px solid white;
+            position: absolute;
+            top: -105px;
+            right: 50px;
+
+            img{
+                width: 150px;
+            }
+
+            div {
+                text-align: center;
+                color: white;
+            }
+
+            .fumetto {
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgba(2,130,249,255);
+                text-transform: uppercase;
+            }
+
+            .gallery{
+                background-color: rgba(2,130,249,255);
+                text-transform: uppercase;
+            }
+
+        }
+
+    }
+
+    .title{
+       color: rgba(0,63,94,255);
+    }
+
+}
+
+.green {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+    .avaible {
+        display: flex;
+        justify-content: space-between;
+        border-right: 1px solid rgba(48,48,48,255);
+
+        .upbold {
+            color: white;
+        }
+    }
+
+    .avaible, .check-avaible {
+        padding: .8em;
+        background-color: rgba(85,186,89,255);
+        border-bottom: 1px solid rgba(48,48,48,255);
+    }
+}
+
+.section-talent-specs {
+    border-top: 1px solid gray;
+    background-color: rgba(246,246,246,255);
+    font-weight: bold;
+
+    a {
+        text-decoration: none;
+    }
+
+    .talent-and-specs {
+        padding-top: 3em;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            padding-bottom: .8em;
+        }
+
+        .h2, p {
+            color: rgba(48,48,48,255);
+            padding-bottom: .5em;
+            border-bottom: 1px solid rgba(48,48,48,255);
+        }
+    }
+}
